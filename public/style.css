@@ -50,6 +50,12 @@ div.congnghe h6{
 	color: black;
 }
 
+div.congnghe span{
+	background-color: lightgray;
+	padding: 2px;
+	color: black;
+}
+
 div.details{
 	padding-top: 50px;
 }
