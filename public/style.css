@@ -9,8 +9,10 @@ div.main{
 }
 
 div.name{
-	padding: 20px;
+	padding-top: 20px;
 	background-color: #660066;
+	box-shadow: 5px 10px 8px 1px #888888;
+	
 }
 
 div.name h1{
@@ -32,9 +34,7 @@ div.img img{
 	width: 230px;
 	border-radius: 200px;
 }
-div.name table tr{
-	border-bottom: 1px dashed black;
-}
+
 div.name table tr td{
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -80,4 +80,24 @@ div.details__hocvan .duan table tr{
 }
 div.details__hocvan .duan table tr td{
 	border-right: 1px solid black ;
+}
+
+/* Responsive */
+@media screen and (max-width: 1000px) {
+	/* div.name{
+		display: none;
+	} */
+	span.email{
+		font-size: 10px;
+	}
+	td.web, td.android{
+		display: none;
+	}
+	div.img img{
+		width: 100px;
+		border-radius: 200px;
+	}
+	ul.kynang li{
+		margin-left: -30px;
+	}
 }
