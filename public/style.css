@@ -1,0 +1,83 @@
+
+
+div.main{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding-top: 100px;
+	color: white;
+	box-shadow: 5px 10px 8px 10px #888888;
+}
+
+div.name{
+	padding: 20px;
+	background-color: #660066;
+}
+
+div.name h1{
+	border-left: 5px solid black;
+	border-bottom: 5px solid black;
+	padding-left: 20px;
+}
+
+div.name__chamngon span{
+	margin: auto;
+}
+
+div.img{
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+div.img img{
+	width: 230px;
+	border-radius: 200px;
+}
+div.name table tr{
+	border-bottom: 1px dashed black;
+}
+div.name table tr td{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+div.congnghe{
+	padding-top: 50px;
+}
+
+div.congnghe h6{
+	background-color: lightgray;
+	padding: 10px;
+	color: black;
+}
+
+div.details{
+	padding-top: 50px;
+}
+
+div.details__hocvan h3{
+	background-color: #660066;
+	font-size: 25px;
+	padding: 10px 50px 10px;
+	font-weight: bold;
+}
+div.details__hocvan ul{
+	padding-top: 20px;
+	color: black;
+}
+
+div.details__hocvan .duan{
+	color: black;
+	padding: 20px;
+}
+
+div.details__hocvan .duan a{
+	color: black;
+	padding: 20px;
+}
+
+div.details__hocvan .duan table tr{
+	border-bottom: 1px solid black;
+}
+div.details__hocvan .duan table tr td{
+	border-right: 1px solid black ;
+}
